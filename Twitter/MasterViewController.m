@@ -97,7 +97,8 @@
             {
                 ACAccount *twitterAccount = [accounts objectAtIndex:index];
                 NSString *username = twitterAccount.username;
-                self.navigationItem.title = username;
+                //self.navigationItem.title = username;
+                [self.navigationItem setTitle:username];
                 NSURL *url = [NSURL URLWithString:@"http://api.twitter.com/1/statuses/home_timeline.json"];
                 NSDictionary *params = [NSDictionary dictionaryWithObject:@"1" forKey:@"include_entities"];
                 SLRequest *request = [SLRequest requestForServiceType:SLServiceTypeTwitter requestMethod:SLRequestMethodGET URL:url parameters:params];
