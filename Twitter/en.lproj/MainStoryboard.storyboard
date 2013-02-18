@@ -126,11 +126,12 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Tweet" id="36">
-                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="Cda-oq-zZP">
+                        <barButtonItem key="leftBarButtonItem" systemItem="reply" id="Cda-oq-zZP">
                             <connections>
                                 <action selector="selectAccountBtn:" destination="12" id="X9m-Zw-4Oy"/>
                             </connections>
                         </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="DVK-vO-9nd"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="17" sceneMemberID="firstResponder"/>
