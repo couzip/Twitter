@@ -125,7 +125,7 @@
                             <outlet property="delegate" destination="12" id="15"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Tweet" id="36">
+                    <navigationItem key="navigationItem" id="36">
                         <barButtonItem key="leftBarButtonItem" systemItem="reply" id="Cda-oq-zZP">
                             <connections>
                                 <action selector="selectAccountBtn:" destination="12" id="X9m-Zw-4Oy"/>
