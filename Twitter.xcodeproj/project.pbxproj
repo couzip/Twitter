@@ -13,12 +13,13 @@
 		8184527F16CF2E41002F7F8F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8184527D16CF2E41002F7F8F /* InfoPlist.strings */; };
 		8184528116CF2E41002F7F8F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184528016CF2E41002F7F8F /* main.m */; };
 		8184528516CF2E41002F7F8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184528416CF2E41002F7F8F /* AppDelegate.m */; };
-		8184528716CF2E41002F7F8F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184528616CF2E41002F7F8F /* Default.png */; };
-		8184528916CF2E41002F7F8F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184528816CF2E41002F7F8F /* Default@2x.png */; };
-		8184528B16CF2E41002F7F8F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8184528A16CF2E41002F7F8F /* Default-568h@2x.png */; };
 		8184528E16CF2E41002F7F8F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8184528C16CF2E41002F7F8F /* MainStoryboard.storyboard */; };
 		8184529116CF2E41002F7F8F /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184529016CF2E41002F7F8F /* MasterViewController.m */; };
 		8184529416CF2E41002F7F8F /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8184529316CF2E41002F7F8F /* DetailViewController.m */; };
+		8190AFC216D0E0BC00315382 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8190AFC116D0E0BC00315382 /* Accounts.framework */; };
+		8190AFC416D0E0C300315382 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8190AFC316D0E0C300315382 /* Twitter.framework */; };
+		8190AFCA16D1211B00315382 /* modalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8190AFC916D1211B00315382 /* modalViewController.m */; };
+		8190AFCC16D1C9A200315382 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8190AFCB16D1C9A200315382 /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,14 +33,16 @@
 		8184528216CF2E41002F7F8F /* Twitter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitter-Prefix.pch"; sourceTree = "<group>"; };
 		8184528316CF2E41002F7F8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8184528416CF2E41002F7F8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8184528616CF2E41002F7F8F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		8184528816CF2E41002F7F8F /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		8184528A16CF2E41002F7F8F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8184528D16CF2E41002F7F8F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8184528F16CF2E41002F7F8F /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		8184529016CF2E41002F7F8F /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		8184529216CF2E41002F7F8F /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		8184529316CF2E41002F7F8F /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8190AFC116D0E0BC00315382 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		8190AFC316D0E0C300315382 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8190AFC816D1211B00315382 /* modalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modalViewController.h; sourceTree = "<group>"; };
+		8190AFC916D1211B00315382 /* modalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modalViewController.m; sourceTree = "<group>"; };
+		8190AFCB16D1C9A200315382 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +50,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8190AFCC16D1C9A200315382 /* Social.framework in Frameworks */,
+				8190AFC416D0E0C300315382 /* Twitter.framework in Frameworks */,
+				8190AFC216D0E0BC00315382 /* Accounts.framework in Frameworks */,
 				8184527516CF2E41002F7F8F /* UIKit.framework in Frameworks */,
 				8184527716CF2E41002F7F8F /* Foundation.framework in Frameworks */,
 				8184527916CF2E41002F7F8F /* CoreGraphics.framework in Frameworks */,
@@ -76,6 +82,9 @@
 		8184527316CF2E41002F7F8F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8190AFCB16D1C9A200315382 /* Social.framework */,
+				8190AFC316D0E0C300315382 /* Twitter.framework */,
+				8190AFC116D0E0BC00315382 /* Accounts.framework */,
 				8184527416CF2E41002F7F8F /* UIKit.framework */,
 				8184527616CF2E41002F7F8F /* Foundation.framework */,
 				8184527816CF2E41002F7F8F /* CoreGraphics.framework */,
@@ -94,6 +103,8 @@
 				8184529216CF2E41002F7F8F /* DetailViewController.h */,
 				8184529316CF2E41002F7F8F /* DetailViewController.m */,
 				8184527B16CF2E41002F7F8F /* Supporting Files */,
+				8190AFC816D1211B00315382 /* modalViewController.h */,
+				8190AFC916D1211B00315382 /* modalViewController.m */,
 			);
 			path = Twitter;
 			sourceTree = "<group>";
@@ -105,9 +116,6 @@
 				8184527D16CF2E41002F7F8F /* InfoPlist.strings */,
 				8184528016CF2E41002F7F8F /* main.m */,
 				8184528216CF2E41002F7F8F /* Twitter-Prefix.pch */,
-				8184528616CF2E41002F7F8F /* Default.png */,
-				8184528816CF2E41002F7F8F /* Default@2x.png */,
-				8184528A16CF2E41002F7F8F /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,9 +172,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				8184527F16CF2E41002F7F8F /* InfoPlist.strings in Resources */,
-				8184528716CF2E41002F7F8F /* Default.png in Resources */,
-				8184528916CF2E41002F7F8F /* Default@2x.png in Resources */,
-				8184528B16CF2E41002F7F8F /* Default-568h@2x.png in Resources */,
 				8184528E16CF2E41002F7F8F /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -182,6 +187,7 @@
 				8184528516CF2E41002F7F8F /* AppDelegate.m in Sources */,
 				8184529116CF2E41002F7F8F /* MasterViewController.m in Sources */,
 				8184529416CF2E41002F7F8F /* DetailViewController.m in Sources */,
+				8190AFCA16D1211B00315382 /* modalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +310,7 @@
 				8184529916CF2E41002F7F8F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
