@@ -126,7 +126,7 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="Tweet" id="36">
-                        <barButtonItem key="leftBarButtonItem" title="Account" id="Cda-oq-zZP">
+                        <barButtonItem key="leftBarButtonItem" systemItem="add" id="Cda-oq-zZP">
                             <connections>
                                 <action selector="selectAccountBtn:" destination="12" id="X9m-Zw-4Oy"/>
                             </connections>
